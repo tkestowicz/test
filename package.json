@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-expressions": "^0.3.0",
+    "body-parser": "^1.16.1",
+    "docxtemplater": "^3.0.3",
+    "express": "^4.14.1",
+    "jszip": "^2.6.1"
+  },
+  "engines": {
+    "node": "6.9.4"
+  }
+}
