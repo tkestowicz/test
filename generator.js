@@ -9,11 +9,11 @@ var angularParser = function (tag) {
     return { get: expr };
 }
 
-var DocxGen = {
+const DocxGen = class generator{
 
     constructor() {
         this.doc = new Docxtemplater();
-    },
+    }
 
     generate(filename, data) {
 
@@ -29,7 +29,7 @@ var DocxGen = {
         this.doc.setData(data);
 
         this.doc.render();
-    },
+    }
 
     saveAs(filename) {
         var buf = this.doc.getZip()
