@@ -9,7 +9,7 @@ var cors = require('express-cors');
 app.use(cors({
     allowedOrigins: [
         'http://localhost:4200',
-        'http://api.trenerkakobiet.pl',
+        'http://generator.trenerkakobiet.pl',
     ]
 }))
 
